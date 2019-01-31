@@ -1,0 +1,16 @@
+body {
+	font-family: gill sans, san-serif;
+	font-size: 12pt;
+}
+
+p{
+	width: 800px;
+
+}
+
+.toc{
+	width: 300px;
+	right: 10px;
+	top: 65px;
+	position: absolute;
+}

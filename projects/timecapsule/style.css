@@ -1,25 +1,32 @@
+.picture{
+	height: 400px;
+	display: inline;
+	padding-left: 80px;
+}
+
+.frame{
+ 	width: 300%;
+ 	position: absolute;
+ 	margin-top: 150px;
+ 	padding-left: 50px;
+
+
+ }
+
+/*
+
 a:hover {
     color: #555555;
     background-color: transparent;
     text-decoration: none;
 }
 
-.picture{
-	width: 200px;
-	height: 200px;
-	opacity: 0.5;
-	display: inline-block;
-	padding: 28px;
-}
-
 .picture:hover{
-	width: 300px;
+	height: 300px;
 	height: auto;
-	opacity: 1;
 	-webkit-transition: 0.5s ease-out;
 }
 
-/*
 .row{
 	display: grid;
 	flex-wrap: wrap;
