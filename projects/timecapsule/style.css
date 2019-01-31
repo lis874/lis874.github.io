@@ -1,15 +1,14 @@
 .picture{
 	height: 400px;
-	display: inline;
+	display: inline-block;
 	padding-left: 80px;
 }
 
 .frame{
- 	width: 300%;
+ 	width: 4300px;
  	position: absolute;
  	margin-top: 150px;
  	padding-left: 50px;
-
 
  }
 
