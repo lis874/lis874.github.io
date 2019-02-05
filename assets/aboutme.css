@@ -57,18 +57,16 @@ span{
 }
 .links p {
 	visibility: hidden;
-
 }
+
 .links:hover p {
 	visibility: visible;
-
 }
 
 .name{
 	font-family: avenir, san-serif;
 	font-size: 50px;
 	margin-top: 22%;
-	
 }
 
 .header{
