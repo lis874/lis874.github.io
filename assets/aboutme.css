@@ -44,6 +44,9 @@ a:active {
     text-decoration: none;
 }
 
+span{
+	font-size: 20px;
+}
 
 .link{
 	font-size: 35px;

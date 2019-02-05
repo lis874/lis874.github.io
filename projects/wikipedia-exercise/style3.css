@@ -1,0 +1,30 @@
+body {
+	font-family: helvetica, san-serif;
+	font-size: 12pt;
+	color: #ffffff;
+	background-color: #5b4537;
+}
+
+p{
+	width: 800px;
+
+}
+
+h1{
+	font-family: baskerville, serif;
+}
+
+h3{
+	font-family: baskerville, serif;
+}
+
+strong{
+	font-family: baskerville, serif;
+}
+
+.toc{
+	width: 300px;
+	right: 10px;
+	top: 65px;
+	position: absolute;
+}
