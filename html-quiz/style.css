@@ -1,3 +1,23 @@
+body{
+	font-family: avenir, san-serif;
+	
+}
+
 img{
 	width: 300px;
+}
+
+.hiphop{
+	font-family: futura, san-serif;
+	font-weight: bold;
+	color: #5d6168;
+}
+
+.pop{
+	font-family: arial black, san-serif;
+	color: #2657ad;
+}
+
+p{
+	width: 500px;
 }
