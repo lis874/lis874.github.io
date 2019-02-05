@@ -9,7 +9,9 @@ body {
 p{
 	color: rgb(255,255,255);
 	font-family: avenir, san-serif; 
-	font-size: 35px
+	font-size: 20px;
+	display: inline;
+	padding: 10px;
 }
 
 hr{
@@ -49,18 +51,30 @@ span{
 }
 
 .link{
+	font-family: avenir, san-serif;
 	font-size: 35px;
-	text-decoration: none;
+}
+.links p {
+	visibility: hidden;
+
+}
+.links:hover p {
+	visibility: visible;
+
 }
 
 .header{
 	font-family: avenir, san-serif;
-	font-size: 45px
+	font-size: 40px;
+	margin-top: 22%;
+	
 }
 
-.places{
+.links{
 	font-family: avenir, san-serif;
-	font-size: 20px
+	font-size: 20px;
+	top: 60%;
+	
 }
 .Hi{
 	font-family: avenir,san-serif;
