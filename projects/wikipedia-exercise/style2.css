@@ -1,8 +1,8 @@
 body {
 	font-family: Caslon, serif;
-	font-size: 14pt;
-	color: #565656;
-	background-color: #fff0ba;
+	font-size: 24pt;
+	color: #ffffff;
+	background-color: #565656;
 }
 
 p{
@@ -27,4 +27,5 @@ strong{
 	right: 10px;
 	top: 65px;
 	position: absolute;
+	font-size: 12pt;
 }
