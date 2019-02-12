@@ -1,0 +1,79 @@
+p{
+	font-family: 'PT Mono', monospace;
+	font-size: 40px;
+}
+
+.text{
+	width: 75%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+
+.curry:hover:after {
+	content: url(assets/1.gif);
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+}
+
+.ramen:hover:after {
+	content: url(assets/6.gif);
+	position: absolute;
+  	left: 20%;
+  	top: 20%;
+}
+
+.tonkatsu:hover:after{
+	content: url(assets/10.gif);
+	position: absolute;
+  	left: 30%;
+  	top: 20%;
+}
+
+.fish:hover:after{
+	content: url(assets/3.gif);
+	position: absolute;
+  	left: 20%;
+  	top: 60%;
+}
+
+.udon:hover:after{
+	content: url(assets/4.gif);
+	position: absolute;
+  	left: 70%;
+  	top: 60%;
+}
+
+.rice:hover:after{
+	content: url(assets/7.gif);
+	position: absolute;
+  	left: 60%;
+  	top: 60%;
+}
+
+.oden:hover:after{
+	content: url(assets/8.gif);
+	position: absolute;
+  	left: 80%;
+  	top: 40%;
+}
+
+.hidden:hover + a{
+  display: block;
+}
+
+a{
+	font-family: 'PT Mono', monospace;
+	font-size: 20px;
+	background-color: #000000;
+	color: #ffffff;
+	width: 25%;
+	padding: 2%;
+	top: 50%;
+	left: 15%;
+	position: absolute;
+	display: none;
+
+}
+
