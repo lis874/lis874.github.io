@@ -1,8 +1,11 @@
 p{
 	font-family: 'PT Mono', monospace;
-	font-size: 40px;
+	font-size: 30px;
 }
-
+span{
+	font-weight: bold;
+	color: #ff0000;
+}
 .text{
 	width: 75%;
 	margin-top: 5%;
@@ -20,42 +23,42 @@ p{
 .ramen:hover:after {
 	content: url(assets/6.gif);
 	position: absolute;
-  	left: 20%;
-  	top: 20%;
+  	left: 50%;
+  	top: 35%;
 }
 
 .tonkatsu:hover:after{
 	content: url(assets/10.gif);
 	position: absolute;
   	left: 30%;
-  	top: 20%;
+  	top: 50%;
 }
 
 .fish:hover:after{
 	content: url(assets/3.gif);
 	position: absolute;
-  	left: 20%;
+  	left: 10%;
   	top: 60%;
 }
 
 .udon:hover:after{
 	content: url(assets/4.gif);
 	position: absolute;
-  	left: 70%;
+  	left: 60%;
   	top: 60%;
 }
 
 .rice:hover:after{
 	content: url(assets/7.gif);
 	position: absolute;
-  	left: 60%;
+  	left: 50%;
   	top: 60%;
 }
 
 .oden:hover:after{
 	content: url(assets/8.gif);
 	position: absolute;
-  	left: 80%;
+  	left: 45%;
   	top: 40%;
 }
 
@@ -65,13 +68,13 @@ p{
 
 a{
 	font-family: 'PT Mono', monospace;
-	font-size: 20px;
+	font-size: 14px;
 	background-color: #000000;
 	color: #ffffff;
-	width: 25%;
+	width: 35%;
 	padding: 2%;
-	top: 50%;
-	left: 15%;
+	top: 80%;
+	left: 30%;
 	position: absolute;
 	display: none;
 
