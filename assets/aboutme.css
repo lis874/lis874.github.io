@@ -65,8 +65,12 @@ span{
 
 .name{
 	font-family: avenir, san-serif;
-	font-size: 50px;
-	margin-top: 22%;
+    font-size: 50px;
+    /* margin-top: 22%; */
+    top: 48%;
+    left: 40%;
+    position: absolute;
+    padding-bottom: 5%;
 }
 
 .header{
@@ -78,8 +82,10 @@ span{
 
 .links{
 	font-family: avenir, san-serif;
-	font-size: 20px;
-	top: 60%;
+    font-size: 20px;
+    top: 58%;
+    left: 39%;
+    position: absolute;
 	
 }
 .Hi{
