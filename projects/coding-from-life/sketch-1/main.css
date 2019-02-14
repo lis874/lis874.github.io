@@ -1,0 +1,218 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+.table{
+	width: 850px;
+	height: 100px;
+	left: 80px;
+	top: 500px;
+	background-color: #303030;
+	position: absolute;
+	z-index: 0;
+
+}
+
+.bag{
+	 top: 410px;
+	 left: 100px;
+     width: 150px;
+     height: 150px;
+     background-color: #09428e;
+     border-radius: 10%;
+     transform: rotate(340deg);
+     position: absolute;
+     z-index: 1;    
+}
+
+.pot{
+	border-bottom: 50px solid #ffedc1;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0px;
+    width: 50px;
+    top: 390px;
+    left: 135px;
+    position: absolute;
+    z-index: 4;
+}
+
+.pot2{
+	width: 100px;
+    height: 60px;
+    background-color: #ffedc1;
+    top: 50px;
+    right: 25px;
+    position: relative;
+    z-index: 4;
+}
+
+.white{
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff;
+	top: 300px;
+    left: 70px;
+    position: relative;
+    z-index: 2;
+}
+
+.handle{
+	height: 80px;
+    width: 55px;
+    border-radius: 20%;
+    border: 8px solid #ce9f2d;
+    background-color: transparent;
+    position: absolute;
+    left: 185px;
+    top: 367px;
+    z-index: 3;
+}
+
+.orange{
+	width: 40px;
+    height: 30px;
+    border-radius: 40%;
+    background-color: #ff8800;
+    top: 470px;
+    left: 400px;
+    position: absolute;
+}
+
+.orange1{
+	width: 40px;
+    height: 30px;
+    border-radius: 40%;
+    background-color: #ff8800;
+    top: 470px;
+    left: 365px;
+    position: absolute;
+}
+
+.orange2{
+	width: 40px;
+    height: 30px;
+    border-radius: 40%;
+    background-color: #ff8800;
+    top: 470px;
+    left: 450px;
+    position: absolute;
+}
+
+.vase{
+	width: 60px;
+    height: 120px;
+    background-color: #e3f1f1;
+    top: 380px;
+    left: 510px;
+    position: absolute;
+}
+
+.flower{
+	width: 15px;
+    height: 15px;
+    background-color: #ea3f0b;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+    position: relative;
+}
+
+.flower1{
+	width: 15px;
+    height: 15px;
+    background-color: #ea3f0b;
+    border-radius: 50%;
+    top: -20px;
+    left: 10px;
+    position: relative;
+}
+
+.flower2{
+	width: 15px;
+    height: 15px;
+    background-color: #ea3f0b;
+    border-radius: 50%;
+    top: -62px;
+    left: 10px;
+    position: relative;
+}
+
+.flower3{
+	width: 15px;
+    height: 15px;
+    background-color: #ea3f0b;
+    border-radius: 50%;
+    top: -40px;
+    left: 30px;
+    position: relative;
+}
+
+.flower4{
+	width: 15px;
+    height: 15px;
+    background-color: #ea3f0b;
+    border-radius: 50%;
+    top: -70px;
+    left: 40px;
+    position: relative;
+}
+
+.flower5{
+	width: 15px;
+    height: 15px;
+    background-color: #ea3f0b;
+    border-radius: 50%;
+    top: -118px;
+    left: 30px;
+    position: relative;
+}
+
+.toy{
+	width: 100px;
+	height: 25px;
+	background-color: #f1b442;
+	top: 470px;
+    left: 550px;
+    position: absolute;
+}
+
+.toy1{
+	width: 100px;
+	height: 25px;
+	background-color: #f1b442;
+	top: 440px;
+    left: 550px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
