@@ -1,0 +1,20 @@
+body {
+	color: rgb(255,255,255);
+	background-color: rgba(131,151,136,0.8);
+	font-family: avenir, san-serif;
+	font-size: 20px;
+}
+
+div{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+p{
+
+}
+a{
+	font-size: 16px;
+	padding: 10px;
+	display: block;
+}
