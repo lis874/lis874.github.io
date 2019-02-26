@@ -19,6 +19,7 @@ body{
     width: 100%;
     height: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 
@@ -76,8 +77,8 @@ a:active {
 
 .photos {
     width: 100%;
-    left: 45%;
-    position: absolute;
+    left: 40%;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-content: flex-end;
