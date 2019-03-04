@@ -1,0 +1,123 @@
+body{
+	background-color: #fffaf1;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	left: 12vw;
+}
+
+.rectangle1{
+	width: 20vw;
+    height: 30vw;
+    border-style: solid;
+    border-color: #000000;
+    border-width: .25vw;
+    position: relative;
+    left: 15vw;
+    top: 5vw;
+}
+
+.rectangle2{
+	width: 15vw;
+    height: 15vw;
+    background-color: #CA3CFF;
+    position: relative;
+    left: 10vw;
+    top: 21vw;
+}
+
+.circle1{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: #CCFCCB;
+    position: relative;
+    left: -8vw;
+    top: -10vw;
+}
+
+.circle2{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: .25vw;
+    position: absolute;
+    left: 35vw;
+    top: 32vw;
+}
+
+.circle3{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: .25vw;
+    position: absolute;
+    left: 55vw;
+    top: 20vw;
+}
+
+.rectangle3{
+    width: 17vw;
+    height: 8vw;
+    background-color: #80ece8;
+    position: absolute;
+    left: 33vw;
+    top: 6vw;
+}
+
+@keyframes blueCircle{
+	0% {
+    background-color: default;
+  }
+	100% {
+    background-color: #FF8E72;
+  }
+}
+
+.circle1{
+	animation: blueCircle 5s linear 1.5s infinite alternate;
+}
+
+@keyframes pinkSquare{
+	0% {
+    background-color: default;
+  }
+	100% {
+    background-color: #FFE74C;
+  }
+}
+
+.rectangle2{
+	animation: pinkSquare 5s linear 1.5s infinite alternate;
+}
+
+@keyframes yellowSquare{
+	0% {
+    background-color: default;
+  }
+	100% {
+    background-color: #507DBC;
+  }
+}
+
+.rectangle3{
+	animation: yellowSquare 5s linear 1.5s infinite alternate;
+}
+
+/* #FF8E72 #FFE74C #507DBC */
+
+
+
+
+
+
+
+
+

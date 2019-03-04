@@ -1,0 +1,123 @@
+.item {
+	font-size: 10vw;
+}
+
+
+body {
+  background-color: pink;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  text-align: center;
+}
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+div.item {
+  animation: spinType 2s;
+}
+
+/* animation: [animation-name] [animation-duration] [animation-timing-function] [animation-delay]; 
+
+animation: bounceIn 2s ease-in-out 3s;
+*/
+
+img {
+  height:500px;
+}
+
+#yin-yang {
+  height:500px;
+}
+
+@keyframes spinSvg {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+div.svg {
+	animation: spinSvg 5s 2s infinite;
+}
+
+.svg:hover {
+	animation-play-state: paused;
+}
+
+@keyframes colorSvg {
+  0% {
+    fill:#d2928b;
+  }
+  100% {
+    fill:#6d79cd;
+    opacity: 0;
+  }
+}
+
+#yin-yang path, #yin-yang circle{
+	animation: colorSvg 5s 2s infinite alternate;
+}
+
+/*
+
+@keyframes fade {
+  0% {
+   opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#yin-yang path, #yin-yang circle{
+	animation: colorSvg 5s 2s infinite alternate, fade 5s ease-in-out 2s infinite alternate-reverse;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
