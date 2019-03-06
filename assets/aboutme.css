@@ -11,7 +11,7 @@ p{
 	font-family: avenir, san-serif; 
 	font-size: 20px;
 	display: inline;
-	padding: 10px;
+	padding: 8px;
 }
 
 hr{
@@ -55,13 +55,7 @@ span{
 	font-family: avenir, san-serif;
 	font-size: 28px;
 }
-.links p {
-	visibility: hidden;
-}
 
-.links:hover p {
-	visibility: visible;
-}
 
 .name{
 	font-family: avenir, san-serif;
@@ -84,7 +78,9 @@ span{
 	font-family: avenir, san-serif;
     font-size: 20px;
     top: 58%;
-    left: 39%;
+    left: 40%;
+    padding-top: 8px;
+    width: 251px;
     position: absolute;
 	
 }
