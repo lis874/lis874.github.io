@@ -1,0 +1,30 @@
+/* Your styles go here */
+.container{
+	width: 100vw;
+	height: 10vw;
+	display: flex;
+}
+.box{
+	width: 10vw;
+	height: 10vw;
+	border: #ffbb99 solid 5px;
+	margin: 10px;
+	font-family: avenir, sans-serif;
+	font-size: 20px;
+	color: #ffbb99;
+}
+.button{
+	width: 15vw;
+	height: 5vw;
+	background-color: #ffbb99;
+	margin: 10px;
+	font-family: avenir, sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	top: 20vw;
+	position: absolute;
+}
+.color{
+	background-color: #ffbb99;
+	color: #ffffff;
+}

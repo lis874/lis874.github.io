@@ -1,0 +1,28 @@
+/* Your styles go here */
+body{
+    font-family: avenir, sans-serif;
+    color: #b1c5c9;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button{
+    width: 20vw;
+    height: 8vw;
+    background-color: #b1c5c9;
+    position: absolute;
+    top: 20vw;
+    left: 40vw;
+    font-family: avenir, sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text{
+    display: none;
+}
+
+.text.active{
+	display: block;
+}
