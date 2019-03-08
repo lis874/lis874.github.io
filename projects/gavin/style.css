@@ -7,10 +7,10 @@ body{
 	font-family: didot, serif;
 	font-size: 50px;
 	color: #ffffff;
-	width: 500px;
+	width: 300px;
 	position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 6vw;
+    top: 8vw;
     text-decoration: none;
 }
 
@@ -18,7 +18,9 @@ body{
 	color: #dc0202;
 	transition: .8s;
 }
-
+a{
+	z-index: 2;
+}
 img{
     width: 100vw;
     top: 0vw;
@@ -29,6 +31,8 @@ img{
 
 video{
 	position: absolute;
-	left: 30vw;
-	top: 120vw;
+	left: 0vw;
+	top: 0vw;
+	width: 100vw;
+	z-index: 1;
 }
