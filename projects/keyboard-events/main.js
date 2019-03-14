@@ -88,3 +88,17 @@ $(document).on('keypress', function(e) {
 
   // etc.
 }); */
+
+/*
+$(document).on('keypress', function(e) {
+  var key = e.key;
+  var keys = {
+    a: 'ttps://goboiano.com/wp-content/uploads/2017/02/tumblr_odlj0sgxFa1slo5uzo1_500.gif',
+    b: 'b=ttps://goboiano.com/wp-content/uploads/2017/02/tumblr_odlj0sgxFa1slo5uzo1_500.gif',
+    c: 'c=ttps://goboiano.com/wp-content/uploads/2017/02/tumblr_odlj0sgxFa1slo5uzo1_500.gif'
+  };
+
+  var img = keys[key];
+});
+
+*/

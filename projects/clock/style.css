@@ -1,0 +1,16 @@
+.clock-part {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,125,45,1) 100%);
+  margin-left: 40px;
+}
+
+.container{
+  left: 40vw;
+  top: 8vw;
+  position: absolute;
+}
+ 
+
+
