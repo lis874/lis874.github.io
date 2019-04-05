@@ -1,0 +1,229 @@
+* {
+		cursor: url(assets/blackcircle.png), auto;
+		/*cursor: pointer;*/
+}
+
+
+@font-face {
+  font-family: Bold;
+  src: url(assets/GT-America-Mono-Trial-Bold.otf);
+}
+
+@font-face {
+  font-family: regular;
+  src: url(assets/GT-America-Mono-Trial-Regular.otf);
+}
+
+@font-face {
+  font-family: Thin;
+  src: url(assets/GT-America-Mono-Trial-Thin.otf);
+}
+
+
+.receipt{
+	width: 45vw;
+	height: auto;
+	margin-top: 15vw;
+	top: 10vw;
+	margin-bottom: 15vw;
+	background-color: #ffffff;
+	border: 1px solid #aaaaaa;
+	left: 28vw;
+	position: fixed;
+	padding-bottom: 7vw;
+	box-shadow: -12px 15px #aaaaaa;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.heading{
+	width: 41vw;
+	left: 7.5vw;
+	position: relative;
+}
+
+.title{
+	font-family: Bold, monospace;
+    font-size: 4vw;
+	top: 3vw;
+	left: 0vw;
+	position: relative;
+}
+
+.byline{
+	font-family: Bold, monospace;
+    font-size: 2.2vw;
+	width: 25vw;
+    top: 0vw;
+    left: 2.5vw;
+	position: relative;
+	text-align: center;
+}
+
+
+.menu{
+	width: 36vw;
+	height: auto;
+	font-family: regular, Monaco, monospace;
+	font-size: 1.8vw;
+	position: relative;
+	left: 2vw;
+	padding-top: 8vw;
+	line-height: 3.5vw;
+	padding-bottom: 3vw;
+}
+
+.category{
+	float: left;
+	position: relative;
+	width: 41vw;
+	height: auto;
+
+}
+
+.price{
+	float: right;
+	position: relative;
+    margin-left: -90px;
+}
+
+.food{
+	float: left;
+	left: 0vw;
+	position: relative;
+	display: none;
+  	overflow: hidden;
+    width: 41vw;
+  	max-height: 742;
+  	padding-top: 2vw;
+}
+
+.clothing{
+	float: left;
+	left: 0vw;
+	position: relative;
+	display: none;
+  	overflow: hidden;
+    width: 41vw;
+  	max-height: 742;
+  	padding-top: 2vw;
+}
+
+.misc{
+	float: left;
+	left: 0vw;
+	position: relative;
+	display: none;
+  	overflow: hidden;
+    width: 41vw;
+  	max-height: 742;
+  	padding-top: 2vw;
+}
+
+.makeup{
+	float: left;
+	left: 0vw;
+	position: relative;
+	display: none;
+  	overflow: hidden;
+    width: 41vw;
+  	max-height: 742;
+  	padding-top: 2vw;
+}
+
+.stationery{
+	float: left;
+	left: 0vw;
+	position: relative;
+	display: none;
+  	overflow: hidden;
+    width: 41vw;
+  	max-height: 742;
+  	padding-top: 2vw;
+}
+
+.transportation{
+	float: left;
+	left: 0vw;
+	position: relative;
+	display: none;
+  	overflow: hidden;
+    width: 41vw;
+  	max-height: 742;
+  	padding-top: 2vw;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .category:hover {
+  text-decoration: underline dashed black;
+  -webkit-transition: -webkit-transform 1s ease-out;
+}
+
+/*.receipt:hover{
+	top: 26vw;
+}*/
+
+.description{
+    width: 27vw;
+    height: 10vw;
+	font-family: regular, Monaco, monospace;
+	font-size: 1.4vw;
+	position: fixed;
+	left: 2vw;
+	top: 3vw;
+	padding: 3vw;
+	line-height: 2vw;
+	background-color: #ffffff;
+	border: 1px solid #aaaaaa;
+	box-shadow: -12px 15px #aaaaaa;
+	display: none;
+}
+
+.button{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: #aaaaaa;
+    position: absolute;
+    left: 30.5vw;
+    top: 1vw;
+}
+
+.active, .byline:hover {
+  text-decoration: underline dashed black;
+  -webkit-transition: -webkit-transform 1s ease-out;
+}
+
+.description1{
+    width: 12.5vw;
+    height: 4vw;
+    font-family: regular, Monaco, monospace;
+    font-size: 1.4vw;
+    position: fixed;
+    left: 48vw;
+    top: 16vw;
+    padding: 2vw;
+    line-height: 2vw;
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    box-shadow: -12px 15px #aaaaaa;
+	display: none;
+}
+
+.button1{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: #aaaaaa;
+    position: absolute;
+    left: 14vw;
+    top: 1vw;
+}
+
+hr{
+	border: none;
+    border-top: .2vw dashed black;
+}
+
+
+
+

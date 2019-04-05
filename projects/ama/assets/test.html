@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+	<style type="text/css">
+		.category {
+			color: red;
+		}
+
+
+		.food {
+			display: none;
+		}
+
+		.clothing {
+			display: none;
+		}
+	</style>
+</head>
+
+
+
+<body>
+		<div class="menu">
+			<div class="category category0"> FOOD <span class="price"> $482.79 </span></div> 
+
+			<div class="food"> 
+				<div class="food-item" data-description="19, Female, New York City">
+					A SMOOTHIE	 <span class="price">$6.50 </span><br>
+				</div>
+
+
+
+				<div class="food-item" data-description="19, Male, New York City">
+					A CROISSANT	 <span class="price">$3.00 </span><br>
+				</div>
+
+				<div class="food-item" data-description="19, Female, New York City">
+				PARIS BAGUETTE	 <span class="price">$6.30 </span><br>
+				</div>
+
+				<div class="food-item" data-description="20, Female, New York City">
+				SHAKE SHACK	 <span class="price">$9.78 </span><br>
+				</div>
+
+				<div class="food-item" data-description="20, Female, New York City">
+				MERCI	 <span class="price">$5.46</span><br></div>
+
+				<div class="food-item" data-description="19, Female, Honolulu">
+				SUSHI	 <span class="price">$30.00 </span><br></div>
+
+				<div class="food-item" data-description="19, Female, New York City">
+				LUNCH	 <span class="price">$8.00</span><br></div>
+
+				<div class="food-item" data-description="20, Female, New York City">
+				MCDONALDS	 <span class="price">$3.00</span><br></div>
+
+				<div class="food-item" data-description="20, Female, New York City">
+				VAN LEEUWAN ICE CREAM	 <span class="price">$6.00</span><br></div>
+
+				<div class="food-item" data-description="19, Female, Irvine">
+				CHICK-FIL-A OREO MILKSHAKE	 <span class="price">$4.19</span><br></div>
+
+				<div class="food-item" data-description="">
+				COFFEE	 <span class="price">$4.50 </span><br>
+				</div>
+
+				<div class="food-item" data-description="">
+				SWEET GREENS	 <span class="price">$13.00</span> <br>
+				</div>	
+
+				<div class="food-item" data-description="">
+				PHO	 <span class="price">$19.00 </span><br>
+				</div>
+
+				<div class="food-item" data-description="">
+				THAI FOOD	 <span class="price">$15.00</span> <br>
+				</div>
+
+				<div class="food-item" data-description="">
+				ARIZONA ICED TEA	 <span class="price">$0.68 </span><br> </div>
+
+				<div class="food-item" data-description="">
+				AMAZON	 <span class="price">$50.00 </span><br></div>
+
+				<div class="food-item" data-description="">
+				BEN & JERRY'S	 <span class="price">$8.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				2 SMOOTHIES	 <span class="price">$15.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				WHOLEFOODS	 <span class="price">$15.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				OREOS	 <span class="price">$6.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				KOREAN BBQ	 <span class="price">$100.09</span><br></div>
+
+				<div class="food-item" data-description="">
+				FOOD	 <span class="price">$24.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				HAM AND CHEESE SANDWICH	 <span class="price">$1.69</span><br></div>
+
+				<div class="food-item" data-description="">
+				WHITE CASTLE CLAM STRIPS	 <span class="price">$6.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				DOOR DASH	 <span class="price">$15.10</span><br></div>
+
+				<div class="food-item" data-description="">
+				A CAKE	 <span class="price">$39.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				STARBUCKS	 <span class="price">$6.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				HAAGEN-DAZS	 <span class="price">$4.50</span><br></div>
+
+				<div class="food-item" data-description="">
+				FOOD AT COSTCO	 <span class="price">$4.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				2 BOTTLES OF SOJU	 <span class="price">$16.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				SUSHI	 <span class="price">$10.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				MANGO DESSERT 	 <span class="price">$8.00</span><br></div>
+
+				<div class="food-item" data-description="">
+				INDIAN RESTAURANT	 <span class="price">$19.00</span><br></div>
+			</div>
+			<br> 
+
+
+
+
+
+			<div class="category category1"> CLOTHING <span class="price"> $317.99 </span> </div> 
+			<div class="clothing">
+				AMERICAN EAGLE JEANS <span class="price">	$29.99</span><br>
+				A SHIRT	<span class="price">$9.00</span> <br>
+				FREE PEOPLE DRESS<span class="price">	$228.00</span><br>
+				SHOES<span class="price">	$37.00</span><br>
+				SWEATER	<span class="price">$14.00</span><br>
+			</div>
+</body>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	$( ".category0" ).click(function() {
+$( ".food" ).toggle();
+$( ".category1" ).toggle();
+});
+// working example
+
+
+		$( ".category1" ).click(function() {
+$( ".clothing" ).toggle();
+
+console.log("clicked!")
+});
+
+
+
+
+		
+
+</script>
+
+
+
+
+</html>
