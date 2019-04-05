@@ -158,6 +158,11 @@
   -webkit-transition: -webkit-transform 1s ease-out;
 }
 
+.active, .food-item:hover {
+  text-decoration: underline dashed black;
+  -webkit-transition: -webkit-transform 1s ease-out;
+}
+
 /*.receipt:hover{
 	top: 26vw;
 }*/
