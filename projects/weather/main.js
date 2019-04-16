@@ -2,7 +2,7 @@ $(function(){
 	console.log('hello')
 });
 
-var url= 'http://api.openweathermap.org/data/2.5/weather?zip=11101&units=imperial&APPID=304f0ab7f8f51d03ea3494dcc3847c71'
+var url= 'https://api.openweathermap.org/data/2.5/weather?zip=11101&units=imperial&APPID=304f0ab7f8f51d03ea3494dcc3847c71'
 
 $.get(url, function(data) {
   // The get request fires a callback function when the API request finishes
