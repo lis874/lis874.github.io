@@ -1,0 +1,42 @@
+* {
+		cursor: pointer;
+		/*cursor: pointer;*/
+}
+
+
+@font-face {
+  font-family: america;
+  src: url(assets/GT-America-Mono-Trial-Medium.otf);
+}
+
+span{
+	color: #769ae0;
+}
+
+body{
+	font-size: 40px;
+	font-family: america;
+}
+
+
+.story{
+	width: 50vw;
+	left: 3vw;
+	position: absolute;
+}
+
+.names{
+    position: fixed;
+    right: 3vw;
+    top: 5vw;
+    width: 16vw;
+    font-size: 2.5vw;
+}
+
+.button{
+	font-size: 1.5vw;
+}
+
+.button:hover{
+	color: #769ae0;
+}
