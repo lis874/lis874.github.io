@@ -1,0 +1,109 @@
+body{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 15vw;
+	color: #172388;
+	background-color: #efdf7a;
+
+}
+
+.name1{
+	line-height: 14vw;
+	font-weight: 700;
+	position: absolute;
+
+}
+
+.name2{
+	line-height: 14vw;
+	font-weight: 700;
+	position: absolute;
+	color: #efdf7a;
+	animation-name: movingname;
+  	animation-duration: 2s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.time{
+	font-size: 6vw;
+}
+
+.circle{
+	width: 8vw;
+	height: 8vw;
+	border-radius: 50%;
+	background-color: #172388;
+	position: absolute;
+	animation-name: topcircle;
+  	animation-duration: 2s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+.circle2{
+	width: 8vw;
+	height: 8vw;
+	border-radius: 50%;
+	background-color: #172388;
+	position: absolute;
+	animation-name: bottomcircle;
+  	animation-duration: 2s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+@keyframes topcircle {
+ 	0% {
+		right: 10%;
+		top: 15%;
+	}
+
+	100% {
+		right: 12%;
+		top: 17%;
+	}
+}
+
+@keyframes bottomcircle {
+ 	0% {
+		right: 30%;
+		top: 60%;
+	}
+
+	100% {
+		right: 28%;
+		top: 62%;
+	}
+}
+
+@keyframes movingname {
+ 	0% {
+		left: 0%;
+		top: 0%;
+	}
+
+	100% {
+		left: 2%;
+		top: 2%;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 200px) {
+
+	.time{
+		position: absolute;
+		bottom: 1vh;
+	}
+
+}
+
+/*font-family: 'Ubuntu Mono', monospace;
+font-family: 'Share Tech Mono', monospace;*/

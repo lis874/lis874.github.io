@@ -1,0 +1,76 @@
+body{
+	font-family: 'IBM Plex Serif', serif;
+	font-weight: 400;
+	font-size: 1.5vw;
+	color: black;
+} 
+
+
+
+.header{
+	font-weight: 700;
+	font-size: 5vw;
+	left: 30vw;
+	position: absolute;
+}
+
+.date{
+	width: 105vw;
+	height: 3vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	position: absolute;
+	top: 7vw;
+	left: -1vw;
+	right: -5vw;
+}
+.container1{
+	width: 40vw;
+	position: absolute;
+	top: 11vw;
+	left: 25vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 5px 5px 5px;
+	padding: 2vw;
+
+}
+
+.article1{
+	position: relative;
+
+}
+
+.article2{
+	width: 40vw;
+	position: absolute;
+	top: 40vw;
+	left: 25vw;
+
+}
+
+.weather{
+	width: 15vw;
+	position: absolute;
+	top: 18vw;
+	left: 1vw;
+	font-weight: 700;
+	font-size: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
