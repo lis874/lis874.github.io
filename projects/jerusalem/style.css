@@ -1,65 +1,91 @@
+@font-face {
+  font-family: lab;
+  src: url(assets/LabMono-Regular.otf);
+}
+
 body{
+	font-family: 'lab', monospace;
+	font-size: 2.2vw;
+	font-weight: 700;
+	background-color: #ffeacd;
+	overflow-x: hidden;
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+	background-color: #000000;
+	color: #ffeacd;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.description{
+	width: 30vw;
+	position: absolute;
+	left: 2vw;
+	top: 1vw;
+	line-height: 2.8vw;
 
 }
 
 img{
-	width: 45vw;
-
+	width: 16vw;
+	right: 30vw;
+	top: 3vw;
+	position: absolute;
+}
+.links{
+	width: 35vw;
+	bottom: 1vw;
+	position: absolute;
+	left: 5vw;
+	top: 20vw;
+	font-size: 1.5vw;
 }
 
-.images{
-	right: 20vw;
+.back{
+	font-size: 1vw;
 	position: absolute;
 }
 
-.pic{
-
-	visibility: hidden;
+.toc{
+	width: 20vw;
+	bottom: 1vw;
+	position: absolute;
+	left: 2vw;
+	font-size: 1.5vw;
 }
 
-.button{
-	width: 5vw;
-	height: 5vw;
-	background-color: black;
-	border-radius: 50%;
+.web1{
+	display: none;
+	top: 20vw;
+	position: absolute;
 }
 
-.slidecontainer {
-  width: 5vw; /* Width of the outside container */
+.web2{
+	display: none;
 }
 
-/* The slider itself */
-.slider {
-  -webkit-appearance: none;  /* Override default CSS styles */
-  appearance: none;
-  width: 5vw; /* Full-width */
-  height: 15vw; /* Specified height */
-  background: #d3d3d3; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
+.washington:hover .web1{
+	display: block;
+ 	z-index: 1;
+ 	visibility: visible;
 }
 
-/* Mouse-over effects */
-.slider:hover {
-  opacity: 1; /* Fully shown on mouse-over */
-}
 
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
-  appearance: none;
-  width: 2vw; /* Set a specific slider handle width */
-  height: 2vw; /* Slider handle height */
-  border-radius: 50%;
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-}
 
-.slider::-moz-range-thumb {
-  width: 2vw; /* Set a specific slider handle width */
-  height: 2vw; /* Slider handle height */
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-}
+
+
+

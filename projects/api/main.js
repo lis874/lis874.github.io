@@ -1,7 +1,9 @@
 
-var url = 'https://newsapi.org/v2/top-headlines?category=general&apiKey=8e128067979e4bbbadff446c3df57953';
+var url1 = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=8e128067979e4bbbadff446c3df57953';
 
-var url = 'https://newsapi.org/v2/everything?q=Apple&apiKey=8e128067979e4bbbadff446c3df57953';
+var url2 = 'https://newsapi.org/v2/everything?q=Apple&apiKey=8e128067979e4bbbadff446c3df57953';
+
+var url3 = 'https://newsapi.org/v2/top-headlines?country=de&category=entertainment&apiKey=8e128067979e4bbbadff446c3df57953';
 
 var assembleArticle = function(article) {
     var title = article.title;
@@ -17,21 +19,45 @@ var assembleArticle = function(article) {
     return articleHTML;
 };
 
-$.get(url, function(data) {
+
+$.get(url1, function(data) {
   console.log('it worked', data);
 
-  var firstArticleDiv = assembleArticle(data.articles[0]);
-  //give the 'assembleArticle' a var so that you can refer back to it
+    var firstArticleDiv = assembleArticle(data.articles[0]);
+    //give the 'assembleArticle' a var so that you can refer back to it
 
-  $('.article1').append(firstArticleDiv);
+    $('.headline').append( assembleArticle(data.articles.title[1]) );
 
-    $('.article2').append( assembleArticle(data.articles[1]) );
 
-  }).fail(function(error) {
-    console.log('it failed', error);
+    }).fail(function(error) {
+      console.log('it failed', error);
 });
 
 
+
+$.get(url2, function(data) {
+  console.log('it worked', data);
+
+    $('.article2').append( assembleArticle(data.articles[1]) );
+
+    $('.article25').append( assembleArticle(data.articles[2]) );
+
+
+    }).fail(function(error) {
+      console.log('it failed', error);
+});
+
+
+
+$.get(url3, function(data) {
+  console.log('it worked', data);
+
+
+    $('.article3').append( assembleArticle(data.articles[2]) );
+
+    }).fail(function(error) {
+      console.log('it failed', error);
+});
 
   // data.articles.forEach(function(article) {
   //   console.log('source:', article.source);

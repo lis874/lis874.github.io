@@ -1,0 +1,81 @@
+@font-face {
+  font-family: lab;
+  src: url(assets/LabMono-Regular.otf);
+}
+
+body{
+	font-family: 'lab', monospace;
+	font-size: 1vw;
+	font-weight: 700;
+	background-color: #ffeacd;
+	overflow-x: hidden;
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+	background-color: #000000;
+	color: #ffeacd;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+img{
+	width: 50vw;
+}
+
+
+.links{
+	width: 35vw;
+	bottom: 1vw;
+	position: absolute;
+	left: 8vw;
+	top: 20vw;
+	font-size: 1.5vw;
+}
+
+
+.web1{
+	opacity: 0;
+	top: -5vw;
+	left: 35vw;
+	position: absolute;
+}
+
+.web2{
+	opacity: 0;
+	top: -5vw;
+	left: 35vw;
+	position: absolute;
+}
+
+
+.washington:hover .web1 {
+	opacity: 1;
+	transition: 1s;
+
+	
+}
+
+.ecf:hover .web2 {
+	opacity: 1;
+	transition: 1s;
+}
+
+
+
+
+
+
+

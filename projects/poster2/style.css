@@ -2,7 +2,7 @@ body{
 	font-family: 'Share Tech Mono', monospace;
 	font-size: 15vw;
 	color: #172388;
-	background-color: #efdf7a;
+	background-color: #ffea69;
 
 }
 
@@ -17,7 +17,7 @@ body{
 	line-height: 14vw;
 	font-weight: 700;
 	position: absolute;
-	color: #efdf7a;
+	color: #ffea69;
 	animation-name: movingname;
   	animation-duration: 2s;
   	animation-timing-function: ease-in-out;
