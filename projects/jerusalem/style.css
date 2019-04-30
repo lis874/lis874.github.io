@@ -1,3 +1,8 @@
+* {
+		cursor: url(assets/blackcircle.png), auto;
+		/*cursor: pointer;*/
+}
+
 @font-face {
   font-family: lab;
   src: url(assets/LabMono-Regular.otf);
