@@ -58,7 +58,7 @@ $(function() {
 
 
 
-var url1 = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=20712e5702ed4bce8678e38ad5926823';
+
 
 var countries = ["ae", "ar", "at", "au", "be", "bg", "br", "ca", "ch", "cn", "co", "cu", "cz", "de", "eg", "fr", "gb", "gr", "hk", "hu", "id", "ie", "il", "in", "it", "jp", "kr", "lt", "lv", "ma", "mx", "my", "ng", "nl", "no", "nz", "ph", "pl", "pt", "ro", "rs", "ru", "sa", "se", "sg", "si", "sk", "th", "tr", "tw", "ua", "us", "ve", "za"];
 
@@ -77,19 +77,19 @@ var country6 = countries[Math.floor(Math.random()*countries.length)];
 
 var country7 = countries[Math.floor(Math.random()*countries.length)];
 
-var url1 = 'https://newsapi.org/v2/top-headlines?country=' + country1 + '&apiKey=ab37ca76aa144daba1d26e19ebae0dbc';
+var url1 = 'https://newsapi.org/v2/top-headlines?country=' + country1 + '&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
 
-var url2 = 'https://newsapi.org/v2/top-headlines?country=' + country2 + '&category=business&apiKey=ab37ca76aa144daba1d26e19ebae0dbc';
+var url2 = 'https://newsapi.org/v2/top-headlines?country=' + country2 + '&category=business&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
 
-var url3 = 'https://newsapi.org/v2/top-headlines?country=' + country3 + '&category=entertainment&apiKey=ab37ca76aa144daba1d26e19ebae0dbc';
+var url3 = 'https://newsapi.org/v2/top-headlines?country=' + country3 + '&category=entertainment&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
 
-var url4 = 'https://newsapi.org/v2/top-headlines?country=' + country4 + '&category=health&apiKey=ab37ca76aa144daba1d26e19ebae0dbc';
+var url4 = 'https://newsapi.org/v2/top-headlines?country=' + country4 + '&category=health&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
 
-var url5 = 'https://newsapi.org/v2/top-headlines?country=' + country5 + '&category=SPORTS&apiKey=ab37ca76aa144daba1d26e19ebae0dbc';
+var url5 = 'https://newsapi.org/v2/top-headlines?country=' + country5 + '&category=SPORTS&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
 
-var url6 = 'https://newsapi.org/v2/top-headlines?country=' + country6 + '&category=technology&apiKey=ab37ca76aa144daba1d26e19ebae0dbc';
+var url6 = 'https://newsapi.org/v2/top-headlines?country=' + country6 + '&category=technology&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
 
-var url7 = 'https://newsapi.org/v2/top-headlines?country=' + country7 + '&category=general&apiKey=ab37ca76aa144daba1d26e19ebae0dbc';
+var url7 = 'https://newsapi.org/v2/top-headlines?country=' + country7 + '&category=general&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
 
 var assembleArticle = function(article) {
     var title = article.title;
