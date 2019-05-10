@@ -1,13 +1,21 @@
-
 body{
 	font-family: 'IBM Plex Serif', serif;
 	font-weight: 400;
 	font-size: 1.5vw;
-	color: black;
+	color:#fff9d1;
+	background-color: #243497;
 	overflow-x: hidden;
 } 
 
+/*color: #b0ebda;
+	background-color: #851e3b;*/
+/*color: #fd8c7a;
+	background-color: #006375;*/
 
+/*    color: #ffc6b2;
+    background-color: #334e57;*/
+/*color: #efab9e;
+    background-color: #134d58;*/
 
 .header{
 	font-weight: 700;
@@ -16,81 +24,403 @@ body{
 	position: absolute;
 }
 
-.date{
+/*DATE*/
+
+.datecontainer{
 	width: 105vw;
 	height: 3vw;
 	border-style: solid;
-	border-color: black;
+	border-color: #fff9d1;
 	border-width: 5px;
 	position: absolute;
 	top: 7vw;
 	left: -1vw;
 	right: -5vw;
-}
-.container1{
-	width: 40vw;
-	position: absolute;
-	top: 11vw;
-	left: 25vw;
-	border-style: solid;
-	border-color: black;
-	border-width: 0px 5px 0px 5px;
-	padding: 2vw;
 
+
+}
+
+.date{
+/*	left: 1vw;
+	position: absolute;*/
+	font-weight: 700;
+	width: 80vw;
+	display: inline-block;
+	margin: .5vw;
+	float: left;
+	transition: all .2s ease-out;
+	overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    animation: example 18s linear infinite;
+}
+
+
+.date:hover {
+  animation-play-state: paused;
+
+}
+
+
+
+@keyframes example {
+ 0%   { 
+ transform: translateX(120%); 		
+ }
+ 100% { 
+ 
+ transform: translateX(-100%); 
+ }
+}
+
+/*LEFT COLUMN*/
+
+.weather{
+	width: 15vw;
+	position: relative;
+	top: 13vw;
+	left: 1vw;
+	font-weight: 700;
+	font-size: 1.8vw;
+
+}
+
+.hitemp{
+	font-size: 1.2vw;
+}
+
+.lowtemp{
+	font-size: 1.2vw;
+}
+
+.line{
+	width: 18vw;
+	height: 5px;
+	background-color: #fff9d1;
+	position: absolute;
+	top: 23vw;
+	left: 0vw;
+}
+
+.horoscope{
+	width: 15vw;
+	position: absolute;
+	top: 26vw;
+	left: 2vw;
+	font-weight: 700;
+	font-size: 1.5vw;
+	line-height: 2.5vw;
+}
+
+.dh{
+	font-size: 1.8vw;
+	margin-bottom: 1.5vw;
+}
+
+.line2{
+	width: 18vw;
+	height: 5px;
+	background-color: #fff9d1;
+	position: absolute;
+	top: 65vw;
+	left: 0vw;
+}
+
+.movies{
+	width: 15vw;
+	position: absolute;
+	top: 68vw;
+	left: 2vw;
+	font-weight: 700;
+	font-size: 1.8vw;
+	line-height: 2.2vw;
+}
+
+.line3{
+	width: 18vw;
+	height: 5px;
+	background-color: #fff9d1;
+	position: absolute;
+	top: 72.5vw;
+	left: 0vw;
+}
+
+.books{
+	width: 15vw;
+	position: absolute;
+	top: 75.5vw;
+	left: 2vw;
+	font-weight: 700;
+	font-size: 1.8vw;
+	line-height: 2.2vw;
+}
+
+.line4{
+	width: 18vw;
+	height: 5px;
+	background-color: #fff9d1;
+	position: absolute;
+	top: 80vw;
+	left: 0vw;
+}
+
+.songs{
+	width: 15vw;
+	position: absolute;
+	top: 83vw;
+	left: 2vw;
+	font-weight: 700;
+	font-size: 1.8vw;
+	line-height: 2.2vw;
+}
+
+
+
+.container4{
+	width: 18vw;
+	position: absolute;
+	top: 88vw;
+	left: 0vw;
+}
+
+.quotes{
+	width: 13.5vw;
+    position: relative;
+    left: 0vw;
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding: 3.3vw 2.3vw 3.3vw 2.3vw;
+    border-style: solid;
+    border-color: #fff9d1;
+    border-width: 5px 0px 5px 0px;
+}
+
+.dog{
+	width: 13.5vw;
+    position: relative;
+    left: 0vw;
+    font-weight: 700;
+    font-size: 1.8vw;
+    line-height: 2vw;
+    padding: 3vw 2.2vw 3.5vw 2.2vw;
+    border-style: solid;
+    border-color: #fff9d1;
+    border-width: 0px 0px 5px 0px;
+    margin-top: .5vw;
+}
+
+.dogpic{
+	width: 14vw;
+
+}
+
+.dogpic:hover {
+	filter: none;
+	opacity: 1;
+	transition: .8s;
+}
+
+.info{
+	width: 14vw;
+    position: relative;
+    left: 0vw;
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding: 3vw 2.2vw 3.3vw 2.2vw;
+
+    margin-top: .5vw;
+}
+
+
+
+a:link {
+	color: #fff9d1;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #fff9d1;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: .3s;
+}
+
+
+
+
+
+
+/*ARTICLE 1*/
+
+.container{
+	width: 53vw;
+	position: absolute;
+	top: 10.5vw;
+	left: 18vw;
+	border-style: solid;
+	border-color: #fff9d1;
+	border-width: 0px 5px 0px 5px;
+	padding: 1vw 2vw 2vw 2vw;
+
+}
+
+.article{
+	margin-bottom: 6vw;
+	padding: 1vw;
 }
 
 .article1{
 	position: relative;
-
 }
 
 .headline{
-	font-size: 2vw;
-	color: red;
+	font-size: 2.5vw;
+	font-weight: 700;
 	position: relative;
 }
+
+.headline:hover {
+	text-decoration: underline;
+
+}
+
+.description{
+	padding-top: 1vw;
+}
+
+.image{
+	width: 51vw;
+	padding-top: 2vw;
+	/*filter: invert(100%);*/
+   position: relative;
+}
+
+.image:hover {
+	filter: none;
+	opacity: 1;
+	transition: .8s;
+}
+
+
+img {
+  -webkit-filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+
+
+
+/*ARTICLE 2*/
 
 .article2{
 	position: relative;
 
 }
 
-.article25{
+
+/*ARTICLE 3*/
+
+.article3{
 	position: relative;
-
+	padding: 1vw;
 }
 
-.weather{
-	width: 15vw;
-	position: absolute;
-	top: 18vw;
-	left: 1vw;
-	font-weight: 700;
-	font-size: 5vw;
-}
+
+
+/*SIDE BAR AND ARTICLE 4*/
 
 .container2{
-	width: 20vw;
+	width: 22vw;
 	position: absolute;
 	top: 11vw;
-	right: 5vw;
-	border-style: solid;
-	border-color: black;
-	border-width: 0px 5px 0px 5px;
-	padding: 2vw;
+	right: .2vw;
+	padding: 1vw;
 	font-size: 1vw;
 
 }
 
-.article3{
+.article4{
+	position: relative;
+	margin-bottom: 4vw;
+}
 
+.headline4{
+	font-size: 1.5vw;
+	font-weight: 700;
 	position: relative;
 }
 
+.image4{
+	width: 20vw;
+	padding-top: 2vw;
+	/*filter: invert(100%);*/
+   position: relative;
+
+}
+
+.article5{
+	position: relative;
+	margin-bottom: 4vw;
+
+}
+
+.headline5{
+	font-size: 1.5vw;
+	font-weight: 700;
+	position: relative;
+}
+
+.image5{
+	width: 20vw;
+	padding-top: 2vw;
+	/*filter: invert(100%);*/
+   position: relative;
+
+}
 
 
+.article6 {
+	position: relative;
+	margin-bottom: 4vw;
+}
 
+.headline6 {
+	font-size: 1.5vw;
+	font-weight: 700;
+	position: relative;
+}
 
+.image6 {
+	width: 20vw;
+	padding-top: 2vw;
+	/*filter: invert(100%);*/
+   position: relative;
 
+}
+
+.article7 {
+	position: relative;
+	margin-bottom: 4vw;
+}
+
+.headline7 {
+	font-size: 1.5vw;
+	font-weight: 700;
+	position: relative;
+}
+
+.image7 {
+	width: 20vw;
+	padding-top: 2vw;
+	/*filter: invert(100%);*/
+   position: relative;
+
+}
 
 
