@@ -77,19 +77,19 @@ var country6 = countries[Math.floor(Math.random()*countries.length)];
 
 var country7 = countries[Math.floor(Math.random()*countries.length)];
 
-var url1 = 'https://newsapi.org/v2/top-headlines?country=' + country1 + '&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
+var url1 = 'https://newsapi.org/v2/top-headlines?country=' + country1 + '&apiKey=562846730d754f85b167845605d14792';
 
-var url2 = 'https://newsapi.org/v2/top-headlines?country=' + country2 + '&category=business&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
+var url2 = 'https://newsapi.org/v2/top-headlines?country=' + country2 + '&category=business&apiKey=562846730d754f85b167845605d14792';
 
-var url3 = 'https://newsapi.org/v2/top-headlines?country=' + country3 + '&category=entertainment&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
+var url3 = 'https://newsapi.org/v2/top-headlines?country=' + country3 + '&category=entertainment&apiKey=562846730d754f85b167845605d14792';
 
-var url4 = 'https://newsapi.org/v2/top-headlines?country=' + country4 + '&category=health&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
+var url4 = 'https://newsapi.org/v2/top-headlines?country=' + country4 + '&category=health&apiKey=562846730d754f85b167845605d14792';
 
-var url5 = 'https://newsapi.org/v2/top-headlines?country=' + country5 + '&category=SPORTS&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
+var url5 = 'https://newsapi.org/v2/top-headlines?country=' + country5 + '&category=SPORTS&apiKey=562846730d754f85b167845605d14792';
 
-var url6 = 'https://newsapi.org/v2/top-headlines?country=' + country6 + '&category=technology&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
+var url6 = 'https://newsapi.org/v2/top-headlines?country=' + country6 + '&category=technology&apiKey=562846730d754f85b167845605d14792';
 
-var url7 = 'https://newsapi.org/v2/top-headlines?country=' + country7 + '&category=general&apiKey=2e98983086da4e3fb58de9e0dbb0e295';
+var url7 = 'https://newsapi.org/v2/top-headlines?country=' + country7 + '&category=general&apiKey=562846730d754f85b167845605d14792';
 
 var assembleArticle = function(article) {
     var title = article.title;
